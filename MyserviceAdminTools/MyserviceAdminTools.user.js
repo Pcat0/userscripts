@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Myservice Admin Tools
-// @namespace    https://github.com/Pcat0/Userscripts
+// @namespace    https://github.com/Pcat0
 // @version      0.1.0
 // @description  Adding features to the Myservice Admin, that really should already exist.
 // @author       Patrick Ambli
