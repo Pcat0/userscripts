@@ -5,8 +5,8 @@
 // @description  Adding features to the Myservice Admin, that really should already exist.
 // @author       Patrick Ambli
 // @run-at       document-idle
-// @updateURL    https://raw.githubusercontent.com/Pcat0/Userscripts/master/MyserviceAdminTools.js
-// @downloadURL  https://raw.githubusercontent.com/Pcat0/Userscripts/master/MyserviceAdminTools.js
+// @updateURL    https://raw.githubusercontent.com/Pcat0/Userscripts/master/MyserviceAdminTools/MyserviceAdminTools.user.js
+// @downloadURL  https://raw.githubusercontent.com/Pcat0/Userscripts/master/MyserviceAdminTools/MyserviceAdminTools.user.js
 // @supportURL   https://github.com/Pcat0-SE/Userscripts/issues
 // @match        https://myservices-self.dev.govplatform.com/admin/MyServices/service/edit/*
 // @grant        none
