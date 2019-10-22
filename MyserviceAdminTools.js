@@ -1,10 +1,13 @@
 // ==UserScript==
 // @name         Myservice Admin Tools
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/Pcat0/Userscripts
 // @version      0.1
 // @description  Adding features to the Myservice Admin, that really should already exist.
 // @author       Patrick Ambli
 // @run-at       document-idle
+// @updateURL    https://raw.githubusercontent.com/Pcat0/Userscripts/master/MyserviceAdminTools.js
+// @downloadURL  https://raw.githubusercontent.com/Pcat0/Userscripts/master/MyserviceAdminTools.js
+// @supportURL   https://github.com/Pcat0-SE/Userscripts/issues
 // @match        https://myservices-self.dev.govplatform.com/admin/MyServices/service/edit/*
 // @grant        none
 // ==/UserScript==
