@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Myservice Admin Tools (beta)
+// @name         Myservice Admin Tools -Beta
 // @namespace    https://github.com/Pcat0
 // @homepageURL  https://github.com/Pcat0/Userscripts
 // @version      0.1.1
