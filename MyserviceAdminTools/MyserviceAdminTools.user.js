@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         Myservice Admin Tools
 // @namespace    https://github.com/Pcat0
-// @version      0.1.0
+// @version      0.1.1
 // @description  Adding features to the Myservice Admin, that really should already exist.
 // @author       Patrick Ambli
 // @run-at       document-idle
 // @updateURL    https://raw.githubusercontent.com/Pcat0/Userscripts/master/MyserviceAdminTools/MyserviceAdminTools.user.js
 // @downloadURL  https://raw.githubusercontent.com/Pcat0/Userscripts/master/MyserviceAdminTools/MyserviceAdminTools.user.js
 // @supportURL   https://github.com/Pcat0-SE/Userscripts/issues
-// @match        https://myservices-self.dev.govplatform.com/admin/MyServices/service/edit/*
+// @match        *://*.govplatform.com/admin/MyServices/service/edit/*
 // @grant        none
 // ==/UserScript==
 (function(){
