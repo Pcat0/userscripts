@@ -6,7 +6,7 @@
 //
 // @namespace    https://github.com/Pcat0
 // @homepageURL  https://github.com/Pcat0/Userscripts
-// @supportURL   https://github.com/Pcat0-SE/Userscripts/issues
+// @supportURL   https://github.com/Pcat0/Userscripts/issues
 // @updateURL    https://raw.githubusercontent.com/Pcat0/Userscripts/master/KanbanBoardIssueCounter/KanbanBoardIssueCounter.user.js
 // @downloadURL  https://raw.githubusercontent.com/Pcat0/Userscripts/master/KanbanBoardIssueCounter/KanbanBoardIssueCounter.user.js
 //
