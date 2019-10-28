@@ -2,7 +2,7 @@
 // @name         Myservice Admin Tools -beta
 // @namespace    https://github.com/Pcat0
 // @homepageURL  https://github.com/Pcat0/Userscripts
-// @version      0.2.0
+// @version      0.2.1
 // @description  Adding features to the Myservice Admin, that really should already exist.
 // @author       Patrick Ambli
 // @run-at       document-idle
