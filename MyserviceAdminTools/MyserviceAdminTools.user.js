@@ -10,7 +10,7 @@
 // @downloadURL  https://raw.githubusercontent.com/Pcat0/Userscripts/beta/MyserviceAdminTools/MyserviceAdminTools.user.js
 // @supportURL   https://github.com/Pcat0-SE/Userscripts/issues
 // @match        *://*.govplatform.com/admin/MyServices/service/edit/*
-// @grant        none
+// @grant        GM_addStyle
 // ==/UserScript==
 
 
