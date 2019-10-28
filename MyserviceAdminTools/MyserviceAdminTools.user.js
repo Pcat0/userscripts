@@ -71,7 +71,7 @@
     var currentUserProcess  = elementValueGetter({processID: "input[data-select-id=service-select]", version: "#service-select"});
     var currentAdminProcess = elementValueGetter({processID: "input[data-select-id=admin-select]", version: "#admin-select"});
 
-    //GM_addStyle("option[current-version]{font-weight: bold}");
+    GM_addStyle("option[current-version]{font-weight: bold}");
 
     addCopyButtons();
     addVersionListEnhancement(fieldUserVersion,  oldCategoryID, oldUserProcess,  currentUserProcess);
