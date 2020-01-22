@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         Jira Announcement Dismiss Button
-// @namespace    http://tampermonkey.net/
-// @version      0.1
 // @description  Adds the ability to dismiss the neon yellow announcement banner on Jira.
 // @author       Patrick Ambli
+// @version      0.1
+// @homepageURL  https://github.com/Pcat0/Userscripts
+// @namespace    https://github.com/Pcat0
 // @updateURL    https://raw.githubusercontent.com/Pcat0/Userscripts/master/JiraAnnouncementDismissButton/JiraAnnouncementDismissButton.user.js
 // @downloadURL  https://raw.githubusercontent.com/Pcat0/Userscripts/master/JiraAnnouncementDismissButton/JiraAnnouncementDismissButton.user.js
 // @supportURL   https://github.com/Pcat0-SE/Userscripts/issues
@@ -34,3 +35,5 @@
     button.addEventListener('mouseup', _=>setBannerState(!self.state));
     setBannerState(self.state);
 })();
+
+
