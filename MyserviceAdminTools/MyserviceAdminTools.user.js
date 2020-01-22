@@ -8,7 +8,7 @@
 // @run-at       document-idle
 // @updateURL    https://raw.githubusercontent.com/Pcat0/Userscripts/master/MyserviceAdminTools/MyserviceAdminTools.user.js
 // @downloadURL  https://raw.githubusercontent.com/Pcat0/Userscripts/master/MyserviceAdminTools/MyserviceAdminTools.user.js
-// @supportURL   https://github.com/Pcat0-SE/Userscripts/issues
+// @supportURL   https://github.com/Pcat0/Userscripts/issues
 // @match        *://*.govplatform.com/admin/MyServices/service/edit/*
 // @grant        GM_addStyle
 // ==/UserScript==
