@@ -2,7 +2,7 @@
 // @name         Jira Announcement Dismiss Button
 // @description  Adds the ability to dismiss the neon yellow announcement banner on Jira.
 // @author       Patrick Ambli
-// @version      0.1
+// @version      0.2.0
 // @homepageURL  https://github.com/Pcat0/Userscripts
 // @namespace    https://github.com/Pcat0
 // @updateURL    https://raw.githubusercontent.com/Pcat0/Userscripts/master/JiraAnnouncementDismissButton/JiraAnnouncementDismissButton.user.js
