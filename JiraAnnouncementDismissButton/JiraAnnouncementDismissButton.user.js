@@ -8,7 +8,7 @@
 // @updateURL    https://raw.githubusercontent.com/Pcat0/Userscripts/master/JiraAnnouncementDismissButton/JiraAnnouncementDismissButton.user.js
 // @downloadURL  https://raw.githubusercontent.com/Pcat0/Userscripts/master/JiraAnnouncementDismissButton/JiraAnnouncementDismissButton.user.js
 // @supportURL   https://github.com/Pcat0/Userscripts/issues
-// @match        https://jira.granicus.com/*
+// @match        *://jira.granicus.com/*
 // @grant        none
 // ==/UserScript==
 
