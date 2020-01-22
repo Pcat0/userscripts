@@ -8,7 +8,7 @@
 // @updateURL    https://raw.githubusercontent.com/Pcat0/Userscripts/master/JiraAnnouncementDismissButton/JiraAnnouncementDismissButton.user.js
 // @downloadURL  https://raw.githubusercontent.com/Pcat0/Userscripts/master/JiraAnnouncementDismissButton/JiraAnnouncementDismissButton.user.js
 // @supportURL   https://github.com/Pcat0/Userscripts/issues
-// @match        *://jira.granicus.com/*
+// @match        https://jira.granicus.com/*
 // @grant        none
 // ==/UserScript==
 
@@ -24,16 +24,24 @@
             return value;
         }
     }
-    const banner = document.getElementById("announcement-banner").firstElementChild;
-    banner.insertAdjacentHTML('beforeend', `<button style="float: right; visibility: visible;">X</button>`);
-    const button = banner.lastElementChild;
-    function setBannerState(state){
-        self.state = state;
-        banner.style.visibility = state ? 'hidden' : 'visible';
-        button.setAttribute('title', state ? 'Show Banner': 'Dismiss Banner');
+    var banner = document.getElementById("announcement-banner");
+    if(banner == undefined){
+        self.state = false;
+    } else {
+        banner = banner.firstElementChild;
+        banner.insertAdjacentHTML('beforeend', `<button style="float: right; visibility: visible;">X</button>`);
+        const button = banner.lastElementChild;
+        function setBannerState(state){
+            self.state = state;
+            banner.style.visibility = state ? 'hidden' : 'visible';
+            button.setAttribute('title', state ? 'Show Banner': 'Dismiss Banner');
+        }
+        button.addEventListener('mouseup', _=>setBannerState(!self.state));
+        setBannerState(self.state);
     }
-    button.addEventListener('mouseup', _=>setBannerState(!self.state));
-    setBannerState(self.state);
-})();
 
+
+
+    
+})();
 
