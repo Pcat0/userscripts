@@ -6,9 +6,9 @@
 // @description  Adds a site name watermark to the Dev sites. This allows for more easy ideation for what site one is working on.
 // @author       Patrick Ambli
 // @run-at       document-idle
-// @updateURL
-// @downloadURL
-// @supportURL
+// @updateURL    https://raw.githubusercontent.com/Pcat0/Userscripts/master/devSiteNameWatermark/devSiteNameWatermark.user.js
+// @downloadURL  https://raw.githubusercontent.com/Pcat0/Userscripts/master/devSiteNameWatermark/devSiteNameWatermark.user
+// @supportURL   https://github.com/Pcat0/Userscripts/issues
 // @match        *://*.govplatform.com/*
 // @grant        GM_addStyle
 // ==/UserScript==
