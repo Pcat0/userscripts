@@ -5,7 +5,7 @@
 // @version      0.1.2
 // @description  Adds a site name watermark to the Dev sites. This allows for more easy ideation for what site one is working on.
 // @author       Patrick Ambli
-// @run-at       document-idle
+// @run-at       document-end
 // @updateURL    https://raw.githubusercontent.com/Pcat0/Userscripts/master/devSiteNameWatermark/devSiteNameWatermark.user.js
 // @downloadURL  https://raw.githubusercontent.com/Pcat0/Userscripts/master/devSiteNameWatermark/devSiteNameWatermark.user.js
 // @supportURL   https://github.com/Pcat0/Userscripts/issues
