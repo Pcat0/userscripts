@@ -2,7 +2,7 @@
 // @name         Dev Site Name Watermark
 // @namespace    https://github.com/Pcat0
 // @homepageURL  https://github.com/Pcat0/Userscripts
-// @version      0.1.2
+// @version      0.1.3
 // @description  Adds a site name watermark to the Dev sites. This allows for more easy ideation for what site one is working on.
 // @author       Patrick Ambli
 // @run-at       document-end
@@ -11,6 +11,7 @@
 // @supportURL   https://github.com/Pcat0/Userscripts/issues
 // @match        *://*.govplatform.com/*
 // @grant        GM_addStyle
+// @noframes
 // ==/UserScript==
 
 (function() {
