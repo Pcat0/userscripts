@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Kanban board issue counter
-// @version      0.1
+// @version      0.2
 // @description  Add issue counters to jira's kanban board columns.
 // @author       Patrick Ambli
 //
