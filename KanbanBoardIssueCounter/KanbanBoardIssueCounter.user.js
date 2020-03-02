@@ -23,6 +23,9 @@
                 let count = document.querySelectorAll(`li[data-column-id='${header.getAttribute("data-id")}']>div[data-issue-id]`).length;
                 header.getElementsByTagName("h2")[0].innerHTML += ` (${count})`;
             }
+            //Fix Kanban Board Header 
+            var offset = document.getElementById('ghx-column-header-group').offsetHeight;
+            document.getElementById('ghx-pool').style.paddingTop = `${offset}px`;
         }
      }).observe(document.getElementsByClassName("ghx-throbber")[0], {childList: true});
 })();
