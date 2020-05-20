@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Kanban board issue counter
-// @version      1.0.1
+// @version      1.0.2
 // @description  Add issue counters to jira's kanban board columns.
 // @author       Patrick Ambli
 //
@@ -63,7 +63,7 @@
                 totalTimeLeft += parseTimeStr(timeLeftStr);
             }
             header.querySelector('.ghx-column-header-content').innerHTML += `<aui-badge style="" title='Remaining Time Estimate'>${formatTime(totalTimeLeft, ['d', 'h', 'm'], 2)}</aui-badge>`;
-            header.innerHTML += `<span style="margin-top: 5px; border-width: 1px; background-color: transparent;" class="aui-lozenge aui-lozenge-subtle" title="Total number of tickets">${column.length} Tickets</span>`;
+            header.innerHTML += `<span style="margin-top: 5px; border-width: 1px; background-color: transparent;" class="aui-lozenge aui-lozenge-subtle" title="Total number of tickets">${column.length} Ticket${column.length != 1 ? 's' : ''}</span>`;
         }
         //Uppdate kanban board offset to fix any header overflow.
         //updateUIOffset();
